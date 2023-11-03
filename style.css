@@ -1,0 +1,163 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.team {
+  grid-template-rows: repeat(2, 420px);
+  display: grid;
+  grid-template-columns: repeat(4, 310px);
+  gap: 32px;
+  padding-left: 52px;
+  padding-right: 52px;
+  justify-content: center;
+}
+.img {
+  width: 100%;
+  height: 230;
+}
+
+.hading {
+  grid-column: span 4;
+  justify-content: center;
+  height: 178px;
+  padding: 0 52px;
+  margin-top: 80px;
+  margin-bottom: 48px;
+}
+
+
+
+.H1_txt {
+  font-weight: 600;
+  font-size: 54px;
+  line-height: 62px;
+  font-family: "Inter", sans-serif;
+  text-align: center;
+  margin-top: 4px;
+  margin-bottom: 16px;
+}
+.ha_txt {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 35px;
+  text-align: center;
+  margin-bottom: 48px;
+}
+#content1::after {
+  content: "\a";
+  white-space: pre;
+}
+.Semibold {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 26px;
+  font-family: "Inter", sans-serif;
+  text-align: center;
+}
+
+
+.informacion {
+  width: 310px;
+  height: 168px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+.name {
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 30px;
+  margin-left: 16px;
+}
+.job_informacion {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  margin: 4px 0 4px 16px;
+}
+
+.icons {
+  width: 278px;
+  height: 36px;
+  gap: 8;
+  margin: 20px 16px 0 16px;
+}
+.instagram {
+  margin: 0 16px;
+}
+
+.footer{
+  margin-top: 48px;
+  padding-top: 108px;
+  padding-bottom: 180px;
+  display: flex;
+  justify-content: center;
+  background-color:  #53535354;
+  
+}
+
+
+.box{
+  margin-left: 52px;
+ width: 1306px;
+ height: 223px;
+  display: flex; 
+ 
+}
+.rviani{
+  width: 100px;
+  height: 64px;
+
+}
+.text_under-8{
+  
+  width: 306px;
+  height: 73px;
+  margin-top: 32px;
+  margin-left: 12px;
+}
+
+.icons{
+  width: flex;
+  height: 24px;
+  margin:28px 0 0 12px;
+
+}
+.icon_marg{
+  margin: 0 16px;
+}
+.end_icons {
+  margin-top: 28px;
+  margin-left: 12px;
+}
+.links{
+  margin-left: 400px;
+
+ 
+}
+.home{
+  margin-top: 20px;
+}
+.margin{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.services{
+  margin-left: 200px;
+
+}
+.languige{
+  margin-left: 200px;
+}
+.button{
+  width: 80px;
+  height: 45px;
+   background-color:#054A68 ;
+  margin-top: 50px;
+  color: white;
+}
+
+
+
